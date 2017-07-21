@@ -8,10 +8,12 @@ The network was trained on the huge segmentation datasets for future maps provid
 Thanks to https://github.com/JihongJu/keras-fcn and https://www.mapillary.com/.
 
 # To do list
+
 1. Fine tune the segmentation result using Dilated Net or SegNet with Conditional Random Field.
 3. More advanced post processing using Edge Detection.
 2. Additionally trains on CamVid dataset and SYNTHIA dataset.
 
 # Usage
 
-1. Lane Detection.ipynb => contains instructions to construct and train the network for road and lane mark segmentation on random dashcam video.
+1. Download the data from https://www.mapillary.com/ (need to make a request) or download the pretrained weights from https://goo.gl/cnUCzv.
+2. Lane Detection.ipynb => contains instructions to construct and train the network for road and lane mark segmentation on random dashcam video.
