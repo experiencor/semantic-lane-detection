@@ -1,9 +1,8 @@
 def show_image(image, ax=None, title=''):
     if ax is None:
-        plt.figure(figsize=(12,12))
-    plt.axis('off')
+        plt.figure(figsize=(8,4))
     
-    plt.imshow(image.astype('uint8'))
+    plt.imshow(image[:,:,::-1].astype('uint8'))
     plt.title(title)
 
 class CroppingLike2D(Layer):
