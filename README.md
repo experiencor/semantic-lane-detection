@@ -9,7 +9,7 @@ Thanks to https://github.com/JihongJu/keras-fcn and https://www.mapillary.com/.
 
 # To do list
 
-1. More advanced post processing using Edge Detection.
+1. More advanced post processing using Edge Detection. [DONE]
 2. Fine tune the segmentation result using Dilated Net or SegNet with Conditional Random Field.
 3. Additionally trains on CamVid dataset and SYNTHIA dataset.
 
